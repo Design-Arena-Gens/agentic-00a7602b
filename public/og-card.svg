@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#070b1a" />
+      <stop offset="50%" stop-color="#16204a" />
+      <stop offset="100%" stop-color="#401d5c" />
+    </linearGradient>
+    <radialGradient id="pulse" cx="0.2" cy="0.1" r="1">
+      <stop offset="0%" stop-color="#7bd8ff" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#7bd8ff" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="pulse2" cx="0.8" cy="0.9" r="1">
+      <stop offset="0%" stop-color="#c367ff" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#c367ff" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <rect width="1200" height="630" fill="url(#pulse)" />
+  <rect width="1200" height="630" fill="url(#pulse2)" />
+  <rect x="60" y="60" width="1080" height="510" rx="34" fill="none" stroke="#7bd8ff" stroke-opacity="0.35" />
+  <g fill="#f6f8ff" font-family="'Space Grotesk', 'Inter', sans-serif">
+    <text x="120" y="240" font-size="96" font-weight="600">Nova Persona</text>
+    <text x="120" y="330" font-size="40" fill="#c3d5ff">Futuristic Profile &amp; Personal Signal</text>
+    <text x="120" y="410" font-size="26" fill="#9eb4ff">Immersive experiences | Quantum storytelling | Creative tech</text>
+  </g>
+  <g stroke="#7bd8ff" stroke-opacity="0.6" fill="none" stroke-dasharray="8 12">
+    <circle cx="980" cy="150" r="70" />
+    <circle cx="1040" cy="210" r="110" stroke="#c367ff" stroke-opacity="0.4" />
+    <path d="M240 450 q60 60 140 0 t160 0 t160 0" stroke="#89a4ff" stroke-opacity="0.5" />
+  </g>
+</svg>
